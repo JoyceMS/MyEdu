@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143C684B20D663DC00C65023 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 143C684A20D663DC00C65023 /* Podfile */; };
-		1493234820D4B90D00F3E69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493234720D4B90D00F3E69B /* AppDelegate.swift */; };
-		1493234A20D4B90D00F3E69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493234920D4B90D00F3E69B /* ViewController.swift */; };
-		1493234D20D4B90D00F3E69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1493234B20D4B90D00F3E69B /* Main.storyboard */; };
-		1493234F20D4B90F00F3E69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1493234E20D4B90F00F3E69B /* Assets.xcassets */; };
-		1493235220D4B90F00F3E69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1493235020D4B90F00F3E69B /* LaunchScreen.storyboard */; };
+		14312407213831AC004EB9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312406213831AC004EB9EC /* AppDelegate.swift */; };
+		14312409213831AC004EB9EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14312408213831AC004EB9EC /* ViewController.swift */; };
+		1431240C213831AC004EB9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431240A213831AC004EB9EC /* Main.storyboard */; };
+		1431240E213831AF004EB9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1431240D213831AF004EB9EC /* Assets.xcassets */; };
+		14312411213831AF004EB9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1431240F213831AF004EB9EC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		143C684A20D663DC00C65023 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		1493234420D4B90D00F3E69B /* MyPublicEdu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPublicEdu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1493234720D4B90D00F3E69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1493234920D4B90D00F3E69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1493234C20D4B90D00F3E69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1493234E20D4B90F00F3E69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1493235120D4B90F00F3E69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1493235320D4B90F00F3E69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14312403213831AC004EB9EC /* YLYolu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLYolu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14312406213831AC004EB9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14312408213831AC004EB9EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1431240B213831AC004EB9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1431240D213831AF004EB9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14312410213831AF004EB9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14312412213831AF004EB9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1493234120D4B90D00F3E69B /* Frameworks */ = {
+		14312400213831AC004EB9EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1493233B20D4B90D00F3E69B = {
+		143123FA213831AC004EB9EC = {
 			isa = PBXGroup;
 			children = (
-				143C684A20D663DC00C65023 /* Podfile */,
-				1493234620D4B90D00F3E69B /* MyPublicEdu */,
-				1493234520D4B90D00F3E69B /* Products */,
+				14312405213831AC004EB9EC /* YLYolu */,
+				14312404213831AC004EB9EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1493234520D4B90D00F3E69B /* Products */ = {
+		14312404213831AC004EB9EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1493234420D4B90D00F3E69B /* MyPublicEdu.app */,
+				14312403213831AC004EB9EC /* YLYolu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1493234620D4B90D00F3E69B /* MyPublicEdu */ = {
+		14312405213831AC004EB9EC /* YLYolu */ = {
 			isa = PBXGroup;
 			children = (
-				1493234720D4B90D00F3E69B /* AppDelegate.swift */,
-				1493234920D4B90D00F3E69B /* ViewController.swift */,
-				1493234B20D4B90D00F3E69B /* Main.storyboard */,
-				1493234E20D4B90F00F3E69B /* Assets.xcassets */,
-				1493235020D4B90F00F3E69B /* LaunchScreen.storyboard */,
-				1493235320D4B90F00F3E69B /* Info.plist */,
+				14312406213831AC004EB9EC /* AppDelegate.swift */,
+				14312408213831AC004EB9EC /* ViewController.swift */,
+				1431240A213831AC004EB9EC /* Main.storyboard */,
+				1431240D213831AF004EB9EC /* Assets.xcassets */,
+				1431240F213831AF004EB9EC /* LaunchScreen.storyboard */,
+				14312412213831AF004EB9EC /* Info.plist */,
 			);
-			path = MyPublicEdu;
+			path = YLYolu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1493234320D4B90D00F3E69B /* MyPublicEdu */ = {
+		14312402213831AC004EB9EC /* YLYolu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1493235620D4B90F00F3E69B /* Build configuration list for PBXNativeTarget "MyPublicEdu" */;
+			buildConfigurationList = 14312415213831AF004EB9EC /* Build configuration list for PBXNativeTarget "YLYolu" */;
 			buildPhases = (
-				1493234020D4B90D00F3E69B /* Sources */,
-				1493234120D4B90D00F3E69B /* Frameworks */,
-				1493234220D4B90D00F3E69B /* Resources */,
+				143123FF213831AC004EB9EC /* Sources */,
+				14312400213831AC004EB9EC /* Frameworks */,
+				14312401213831AC004EB9EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyPublicEdu;
-			productName = MyPublicEdu;
-			productReference = 1493234420D4B90D00F3E69B /* MyPublicEdu.app */;
+			name = YLYolu;
+			productName = YLYolu;
+			productReference = 14312403213831AC004EB9EC /* YLYolu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1493233C20D4B90D00F3E69B /* Project object */ = {
+		143123FB213831AC004EB9EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = xuyou;
 				TargetAttributes = {
-					1493234320D4B90D00F3E69B = {
+					14312402213831AC004EB9EC = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 1493233F20D4B90D00F3E69B /* Build configuration list for PBXProject "MyPublicEdu" */;
+			buildConfigurationList = 143123FE213831AC004EB9EC /* Build configuration list for PBXProject "YLYolu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 1493233B20D4B90D00F3E69B;
-			productRefGroup = 1493234520D4B90D00F3E69B /* Products */;
+			mainGroup = 143123FA213831AC004EB9EC;
+			productRefGroup = 14312404213831AC004EB9EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1493234320D4B90D00F3E69B /* MyPublicEdu */,
+				14312402213831AC004EB9EC /* YLYolu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1493234220D4B90D00F3E69B /* Resources */ = {
+		14312401213831AC004EB9EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1493235220D4B90F00F3E69B /* LaunchScreen.storyboard in Resources */,
-				1493234F20D4B90F00F3E69B /* Assets.xcassets in Resources */,
-				143C684B20D663DC00C65023 /* Podfile in Resources */,
-				1493234D20D4B90D00F3E69B /* Main.storyboard in Resources */,
+				14312411213831AF004EB9EC /* LaunchScreen.storyboard in Resources */,
+				1431240E213831AF004EB9EC /* Assets.xcassets in Resources */,
+				1431240C213831AC004EB9EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1493234020D4B90D00F3E69B /* Sources */ = {
+		143123FF213831AC004EB9EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1493234A20D4B90D00F3E69B /* ViewController.swift in Sources */,
-				1493234820D4B90D00F3E69B /* AppDelegate.swift in Sources */,
+				14312409213831AC004EB9EC /* ViewController.swift in Sources */,
+				14312407213831AC004EB9EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1493234B20D4B90D00F3E69B /* Main.storyboard */ = {
+		1431240A213831AC004EB9EC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1493234C20D4B90D00F3E69B /* Base */,
+				1431240B213831AC004EB9EC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1493235020D4B90F00F3E69B /* LaunchScreen.storyboard */ = {
+		1431240F213831AF004EB9EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1493235120D4B90F00F3E69B /* Base */,
+				14312410213831AF004EB9EC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1493235420D4B90F00F3E69B /* Debug */ = {
+		14312413213831AF004EB9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		1493235520D4B90F00F3E69B /* Release */ = {
+		14312414213831AF004EB9EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,36 +276,38 @@
 			};
 			name = Release;
 		};
-		1493235720D4B90F00F3E69B /* Debug */ = {
+		14312416213831AF004EB9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ATQTZK527U;
-				INFOPLIST_FILE = MyPublicEdu/Info.plist;
+				INFOPLIST_FILE = YLYolu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuyou.MyPublicEdu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyou.YLYolu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1493235820D4B90F00F3E69B /* Release */ = {
+		14312417213831AF004EB9EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ATQTZK527U;
-				INFOPLIST_FILE = MyPublicEdu/Info.plist;
+				INFOPLIST_FILE = YLYolu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xuyou.MyPublicEdu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuyou.YLYolu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +317,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1493233F20D4B90D00F3E69B /* Build configuration list for PBXProject "MyPublicEdu" */ = {
+		143123FE213831AC004EB9EC /* Build configuration list for PBXProject "YLYolu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1493235420D4B90F00F3E69B /* Debug */,
-				1493235520D4B90F00F3E69B /* Release */,
+				14312413213831AF004EB9EC /* Debug */,
+				14312414213831AF004EB9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1493235620D4B90F00F3E69B /* Build configuration list for PBXNativeTarget "MyPublicEdu" */ = {
+		14312415213831AF004EB9EC /* Build configuration list for PBXNativeTarget "YLYolu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1493235720D4B90F00F3E69B /* Debug */,
-				1493235820D4B90F00F3E69B /* Release */,
+				14312416213831AF004EB9EC /* Debug */,
+				14312417213831AF004EB9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1493233C20D4B90D00F3E69B /* Project object */;
+	rootObject = 143123FB213831AC004EB9EC /* Project object */;
 }
